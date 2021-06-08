@@ -1,6 +1,6 @@
 const knex = require("../db/connection");
 const getRowMapConfiguration = require("../utils/reduce-properties");
-const properties = require("../utils/map-properties")
+const properties = require("../utils/map-properties");
 
 const addCategory = properties({
     critic_id: "critic.critic_id",
