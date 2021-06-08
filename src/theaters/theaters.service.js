@@ -16,10 +16,10 @@ function list(){
     .join("movies as m", "mt.movie_id" , "m.movie_id")
     .select("m.*", "t.*")
     .then(reduceMovies)  
-}
+};
 
 module.exports = {
     list
-}
+};
 
 
