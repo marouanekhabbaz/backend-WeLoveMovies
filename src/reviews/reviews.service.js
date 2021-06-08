@@ -9,12 +9,12 @@ const addCategory = properties({
 });
 function list(review_id) {
     return knex("reviews").select("*").where({review_id}).first()
-  }
+  };
 list(449).then(console.log)
 
 function destroy(id) {
     return knex("reviews").where({"review_id": id }).del();
-  }
+  };
   
 
   function update(review) {
@@ -22,7 +22,7 @@ function destroy(id) {
       .select("*")
       .where({ review_id : review.review_id })
       .update(review, "*");
-  }
+  };
 
   function readRev(id){
 
@@ -32,7 +32,7 @@ function destroy(id) {
     .where({"r.review_id":id})
     .first()
     .then(addCategory)
-}
+};
 
   module.exports={
       list,
@@ -40,4 +40,4 @@ function destroy(id) {
       readRev,
       delete: destroy
 
-  }
+  };
