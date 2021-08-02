@@ -7,6 +7,8 @@ I was in charge of setting up the database and building up a REST API with speci
 [Live app](https://we-love-movies-back-end-by-khabbaz-marouane.vercel.app/)
 
 ## Installation
+To run this server on your local machine:
+
 Fork / clone this repository.
 
 Run npm install.
@@ -19,7 +21,7 @@ Set the PORT environment variable to the port this server should use.
 
 If PORT is not set, a default value of 5000 is used.
 
-Or use the live server :
+Or use the live server from this link:
 
 https://stormy-depths-11883.herokuapp.com
 
