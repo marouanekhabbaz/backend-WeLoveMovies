@@ -1,6 +1,11 @@
 # backend-WeLoveMovies
 
-Installation
+As another developer at Thinkful works on the design and frontend experience,
+I was in charge of setting up the database and building up a REST API with specific routes so that users can list, read, create, update or delete data about movies, theaters, and reviews. I used Postgres, Express Js, and Knex to build this app.
+
+live app: https://we-love-movies-back-end-by-khabbaz-marouane.vercel.app/
+
+## Installation
 Fork / clone this repository.
 
 Run npm install.
