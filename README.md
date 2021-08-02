@@ -19,9 +19,9 @@ Set the PORT environment variable to the port this server should use.
 
 If PORT is not set, a default value of 5000 is used.
 
-Or Visit the live server :
+Or use the live server :
 
-https://stormy-depths-11883.herokuapp.com/movies
+https://stormy-depths-11883.herokuapp.com
 
 #Routes
 
