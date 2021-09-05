@@ -1,6 +1,6 @@
 ## Get all movies
 
-This route will return a list of all movies. Different query parameters will allow for limiting the data that is returned.
+This route will return a list of all movies. Different query parameters will allow for limiting the data that is returned .
 
 There are two different cases to consider:
 
