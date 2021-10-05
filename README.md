@@ -11,7 +11,7 @@ To run this server on your local machine:
 
 Fork / clone this repository.
 
-Run npm install.
+Run npm install
 
 Use npm start to run the application.
 
