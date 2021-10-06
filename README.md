@@ -9,7 +9,7 @@ I was in charge of setting up the database and building up a REST API with speci
 ## Installation
 To run this server on your local machine:
 
-Fork / clone this repository.
+Fork / clone this repository
 
 Run npm install
 
